@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="74">
+  <author>LS-Farmers, Braeven</author>
+  <version>1.0.0.0</version>
+  <title>
+    <en>Wardrobe Plus - LSF Style</en>
+    <de>Wardrobe Plus - LSF Style</de>
+  </title>
+
+  <description>
+    <en>
+<![CDATA[This sample mod adds to the wardrobe a selection of clothes with the FS22 logo design. This mod acts as a example mod on how to implement your own Logo. It is not necessary required but without "FS22_1_WardrobePlus.zip" mod active the designs won't be loaded ingame.]]>
+    </en>
+    <de>
+<![CDATA[Dieser Beispielmod fügt, in zusammenhang mit dem WardrobePlus mod, der Garderobe eine Auswahl an Bekleidung mit dem FS22-Logo-Design hinzu. Dieser Mod dient als Beispiel dafür, wie man sein eigenes Logo oder Muster implementieren kann. Es wird nicht zwingend benötigt den Mod "FS22_1_WardrobePlus.zip" zu aktivieren, ohne diesen werden die Designs nicht im Spiel geladen.]]>
+    </de>
+  </description>
+
+
+
+  <iconFilename>icon_WardRobePlus.dds</iconFilename>
+  <multiplayer supported="true" />
+ 
+	<dependencies>
+		<dependency>FS22_1_WardrobePlus</dependency> <!-- Set as dependency as it acts as an example Mod and does not make sense without. -->
+	</dependencies>
+
+  <extraSourceFiles>
+    <sourceFile filename="WardRobePlus_helper.lua" />
+  </extraSourceFiles>
+ 
+  <clothes>
+    <!--<item type="tShirtM" diffuse="textures/TeeShirtMale_diffuse.dds" mask="textures/TeeShirtMale_mask.dds" icon="textures/TeeShirtMale_icon.dds" />
+    <item type="tShirtF" diffuse="textures/TeeShirtFemale_diffuse.dds" mask="textures/TeeShirtFemale_mask.dds" icon="textures/TeeShirtFemale_icon.dds" />-->
+    <item type="poloShirt" diffuse="textures/PoloShirt_diffuse.dds" mask="textures/PoloShirt_mask.dds" icon="textures/PoloShirt_icon.dds" />
+    <!--<item type="sweater" diffuse="textures/Sweater_diffuse.dds" mask="textures/Sweater_mask.dds" icon="textures/Sweater_icon.dds" />
+    <item type="hoodie" diffuse="textures/Hoodie_diffuse.dds" mask="textures/Hoodie_mask.dds" icon="textures/Hoodie_icon.dds" />
+    <item type="ballCap" diffuse="textures/Ballcap_diffuse.dds" mask="textures/Ballcap_mask.dds" icon="textures/Ballcap_icon.dds" />
+    <item type="beanie" diffuse="textures/Beanie_diffuse.dds" mask="textures/Beanie_mask.dds" icon="textures/Beanie_icon.dds" />
+    <item type="militia" diffuse="textures/Militia_diffuse.dds" mask="textures/Militia_mask.dds" icon="textures/Militia_icon.dds" />
+    <item type="vintage" diffuse="textures/Vintage_diffuse.dds" mask="textures/Vintage_mask.dds" icon="textures/Vintage_icon.dds" />-->
+  </clothes>
+</modDesc>
